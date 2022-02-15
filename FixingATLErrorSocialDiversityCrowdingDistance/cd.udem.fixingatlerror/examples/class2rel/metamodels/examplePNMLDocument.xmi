@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PNML:PNMLDocument
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:PNML="PNML"
+    xsi:schemaLocation="PNML PNML.ecore#/0">
+  <nets/>
+</PNML:PNMLDocument>

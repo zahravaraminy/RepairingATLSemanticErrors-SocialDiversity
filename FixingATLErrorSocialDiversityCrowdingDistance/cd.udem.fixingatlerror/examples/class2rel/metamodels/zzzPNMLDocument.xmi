@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PNML:PNMLDocument
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:PNML="PNML"
+    xsi:schemaLocation="PNML PNML.ecore#/0">
+  <nets location="135-120"
+      id="p0">
+    <contents
+        xsi:type="PNML:Place"
+        location="136-121"
+        id="p1"/>
+    <contents
+        xsi:type="PNML:Place"
+        location="137-122"
+        id="p2"/>
+    <contents
+        xsi:type="PNML:Arc"
+        id="p0"
+        source="//@nets.0/@contents.0"
+        target="//@nets.0/@contents.1"/>
+    <contents
+        xsi:type="PNML:Transition"/>
+  </nets>
+</PNML:PNMLDocument>
