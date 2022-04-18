@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Relational="Relational">
+  <Relational:Schema>
+    <tables name="Bank" key="/1">
+      <col xsi:type="Relational:Table" name="Bank_clients">
+        <col name="Bank" type="/0/@types.0"/>
+        <col name="clients" type="/0/@types.0"/>
+      </col>
+      <col xsi:type="Relational:Table" name="Bank_managers">
+        <col name="Bank" type="/0/@types.0"/>
+        <col name="managers" type="/0/@types.0"/>
+      </col>
+      <col xsi:type="Relational:Table" name="Bank_accounts">
+        <col name="Bank" type="/0/@types.0"/>
+        <col name="accounts" type="/0/@types.0"/>
+      </col>
+    </tables>
+    <tables name="Client" key="/2">
+      <col name="managerId" type="/0/@types.0"/>
+      <col xsi:type="Relational:Table" name="Client_accounts">
+        <col name="Client" type="/0/@types.0"/>
+        <col name="accounts" type="/0/@types.0"/>
+      </col>
+      <col name="name" type="/0/@types.2"/>
+    </tables>
+    <tables name="Manager" key="/3">
+      <col xsi:type="Relational:Table" name="Manager_clients">
+        <col name="Manager" type="/0/@types.0"/>
+        <col name="clients" type="/0/@types.0"/>
+      </col>
+      <col name="name" type="/0/@types.2"/>
+    </tables>
+    <tables name="Account" key="/4">
+      <col name="ownerId" type="/0/@types.0"/>
+      <col name="id" type="/0/@types.0"/>
+      <col name="credit" type="/0/@types.1"/>
+    </tables>
+    <types name="Integer"/>
+    <types name="Float"/>
+    <types name="String"/>
+  </Relational:Schema>
+  <Relational:Column name="objectId" type="/0/@types.0"/>
+  <Relational:Column name="objectId" type="/0/@types.0"/>
+  <Relational:Column name="objectId" type="/0/@types.0"/>
+  <Relational:Column name="objectId" type="/0/@types.0"/>
+</xmi:XMI>

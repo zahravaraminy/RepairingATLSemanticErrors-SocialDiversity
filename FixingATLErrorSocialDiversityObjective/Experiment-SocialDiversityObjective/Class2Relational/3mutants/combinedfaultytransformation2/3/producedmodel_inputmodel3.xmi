@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Relational="Relational">
+  <Relational:Schema>
+    <tables name="User" key="/1">
+      <col name="first_name" type="/0/@types.0"/>
+      <col name="last_name" type="/0/@types.0"/>
+      <col name="uid" type="/0/@types.1"/>
+      <col name="user_name" type="/0/@types.0"/>
+      <col xsi:type="Relational:Table" name="User_admin_user">
+        <col name="User" type="/0/@types.1"/>
+        <col name="admin_user" type="/0/@types.1"/>
+      </col>
+      <col xsi:type="Relational:Table" name="User_project">
+        <col name="User" type="/0/@types.1"/>
+        <col name="project" type="/0/@types.1"/>
+      </col>
+    </tables>
+    <tables name="AdminUser" key="/2">
+      <col name="role" type="/0/@types.0"/>
+    </tables>
+    <tables name="Project" key="/3">
+      <col name="description" type="/0/@types.0"/>
+      <col name="id" type="/0/@types.1"/>
+      <col xsi:type="Relational:Table" name="Project_entity">
+        <col name="Project" type="/0/@types.1"/>
+        <col name="entity" type="/0/@types.1"/>
+      </col>
+    </tables>
+    <tables name="Entity" key="/4">
+      <col name="description" type="/0/@types.0"/>
+      <col name="id" type="/0/@types.1"/>
+      <col name="number" type="/0/@types.1"/>
+      <col xsi:type="Relational:Table" name="Entity_attributes">
+        <col name="Entity" type="/0/@types.1"/>
+        <col name="attributes" type="/0/@types.1"/>
+      </col>
+    </tables>
+    <tables name="Attribute" key="/5">
+      <col name="description" type="/0/@types.0"/>
+    </tables>
+    <types name="String"/>
+    <types name="Integer"/>
+    <types name="Float"/>
+  </Relational:Schema>
+  <Relational:Column name="objectId" type="/0/@types.1"/>
+  <Relational:Column name="objectId" type="/0/@types.1"/>
+  <Relational:Column name="objectId" type="/0/@types.1"/>
+  <Relational:Column name="objectId" type="/0/@types.1"/>
+  <Relational:Column name="objectId" type="/0/@types.1"/>
+</xmi:XMI>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Relational="Relational">
+  <Relational:Schema>
+    <tables name="StateMachine" key="/1">
+      <col xsi:type="Relational:Table" name="StateMachine_events">
+        <col name="StateMachine"/>
+        <col name="events"/>
+      </col>
+      <col xsi:type="Relational:Table" name="StateMachine_transitions">
+        <col name="StateMachine"/>
+        <col name="transitions"/>
+      </col>
+      <col xsi:type="Relational:Table" name="StateMachine_states">
+        <col name="StateMachine"/>
+        <col name="states"/>
+      </col>
+      <col xsi:type="Relational:Table" name="StateMachine_commands">
+        <col name="StateMachine"/>
+        <col name="commands"/>
+      </col>
+      <col xsi:type="Relational:Table" name="StateMachine_resetEvents">
+        <col name="StateMachine"/>
+        <col name="resetEvents"/>
+      </col>
+      <col name="name" type="/0/@types.0"/>
+    </tables>
+    <tables name="Event" key="/2">
+      <col name="name" type="/0/@types.0"/>
+    </tables>
+    <tables name="Transition" key="/3">
+      <col name="eventId"/>
+      <col name="name" type="/0/@types.0"/>
+    </tables>
+    <tables name="State" key="/4">
+      <col xsi:type="Relational:Table" name="State_transitions">
+        <col name="State"/>
+        <col name="transitions"/>
+      </col>
+      <col xsi:type="Relational:Table" name="State_commands">
+        <col name="State"/>
+        <col name="commands"/>
+      </col>
+      <col name="name" type="/0/@types.0"/>
+    </tables>
+    <tables name="Command" key="/5">
+      <col name="name" type="/0/@types.0"/>
+    </tables>
+    <types name="String"/>
+  </Relational:Schema>
+  <Relational:Column name="objectId"/>
+  <Relational:Column name="objectId"/>
+  <Relational:Column name="objectId"/>
+  <Relational:Column name="objectId"/>
+  <Relational:Column name="objectId"/>
+</xmi:XMI>

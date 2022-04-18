@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docbook="docbook">
+  <docbook:DocBook>
+    <books>
+      <articles title="BibTeXML to DocBook">
+        <sections_1 title="References List">
+          <paras content="[1Mg8ztrZA8NtMGskOj1ASt446Et5WtXRr8FgWA2iURjLfYs1u0U8BFNkdNUaRq1J8c] Manual brZOgWiN5WNxTUW00CxGCh73uaJVKNp7umVbaYlWOvhshcqELxP8Jd6LYqVBeQYJHbXSn"/>
+          <paras content="[XOjtjcpvY9SUhrHR5ppm4cpfKn0FNZQAxxI1fGuqjIITN7VTbOn9lAIpY8r8UpPFrCWT] Misc"/>
+          <paras content="[qgetFuUuNXRpvlL2kZrcsUCB98e2K33Dwo1h0oAUu8WTLlcb0HwJ9Kodv3RquuJnhu] Manual PELW8d1g4Mr79Qk0CTLy7Z0FACvOeVoIJTIGvTyvbyGmFVPFTcSWnKU7u6PZzlVN2"/>
+          <paras content="[stOTsYjv72DDfLptgIOFdIS7ghEpfjEocKbcoJN61G1Swik7Nz8SoIFm1R9fGFGYDhKMNM] Booklet lWmLevAIr4BbzJBUyoX4BTfKzDFgpYJyvM6powZgaE79hgNXaGL2KW8TG5F27jwQXX"/>
+        </sections_1>
+        <sections_1 title="Authors list"/>
+        <sections_1 title="Titles List"/>
+        <sections_1 title="Journals List"/>
+      </articles>
+    </books>
+  </docbook:DocBook>
+  <docbook:Para content="PELW8d1g4Mr79Qk0CTLy7Z0FACvOeVoIJTIGvTyvbyGmFVPFTcSWnKU7u6PZzlVN2"/>
+  <docbook:Para content="brZOgWiN5WNxTUW00CxGCh73uaJVKNp7umVbaYlWOvhshcqELxP8Jd6LYqVBeQYJHbXSn"/>
+</xmi:XMI>

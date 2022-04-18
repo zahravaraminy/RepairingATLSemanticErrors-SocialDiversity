@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<docbook:DocBook xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:docbook="docbook">
+  <books>
+    <articles title="BibTeXML to DocBook">
+      <sections_1 title="References List">
+        <paras content="[XOjtjcpvY9SUhrHR5ppm4cpfKn0FNZQAxxI1fGuqjIITN7VTbOn9lAIpY8r8UpPFrCWT] Misc"/>
+        <paras content="[stOTsYjv72DDfLptgIOFdIS7ghEpfjEocKbcoJN61G1Swik7Nz8SoIFm1R9fGFGYDhKMNM] Booklet lWmLevAIr4BbzJBUyoX4BTfKzDFgpYJyvM6powZgaE79hgNXaGL2KW8TG5F27jwQXX"/>
+      </sections_1>
+      <sections_1 title="Authors list"/>
+      <sections_1 title="Titles List"/>
+      <sections_1 title="dummy"/>
+    </articles>
+  </books>
+</docbook:DocBook>
