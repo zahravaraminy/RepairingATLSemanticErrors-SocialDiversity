@@ -1,0 +1,12 @@
+tmp/varaminz/step5ostende4
+tmp/outputfolder
+tmp/varaminz/step5ostende4/examples/trafo2/zahra2mutants/finalresult
+tmp/varaminz/step5ostende4/examples/class2rel/metamodels/DocBook.ecore
+tmp/varaminz/step5ostende4/examples/class2rel/metamodels/BibTeX.ecore
+DocBook
+BibTeX
+BibTeX2DocBook
+tmp/varaminz/step5ostende4/examples/BibTeX_input2
+tmp/varaminz/step5ostende4/examples/BibTeX_input3
+tmp/varaminz/step5ostende4/examples/BibTeX_input0
+tmp/varaminz/step5ostende4/examples/BibTeX_input1
