@@ -1,13 +1,12 @@
 To run Social diversity with crowding distance, run main class which is located  
 FixingATLErrorSocialDiversityCrowdingDistance/cd.udem.fixingatlerror/src/cd/udem/fixingatlerror/Class2Rel.java
 
-
-main class = cd.udem.fixingatlerror/src/cd/udem/fixingatlerror/Class2Rel.java
-Setting class= cd.udem.fixingatlerror/src/cd/udem/fixingatlerror/Setting.java
-metamodels= cd.udem.fixingatlerror/examples/class2rel/metamodels
+main class = FixingATLErrorSocialDiversityCrowdingDistance/cd.udem.fixingatlerror/src/cd/udem/fixingatlerror/Class2Rel.java
+Setting class= FixingATLErrorSocialDiversityCrowdingDistance/cd.udem.fixingatlerror/src/cd/udem/fixingatlerror/Setting.java
+metamodels= FixingATLErrorSocialDiversityCrowdingDistance/cd.udem.fixingatlerror/examples/class2rel/metamodels
 inputmodels=cd.udem.fixingatlerror/examples
 
-inputfaultytransformations= cd.udem.fixingatlerror/examples/class2rel/trafo/semanticfaulty/atl(i)
+inputfaultytransformations= FixingATLErrorSocialDiversityCrowdingDistance/cd.udem.fixingatlerror/examples/class2rel/trafo/semanticfaulty/atl(i)
 	i=1 until size of faulty transformations
 	each atl contains files:
 		2.atl(faulty transformation)
@@ -21,13 +20,13 @@ for 4 transformation programs.
 SemanticFaultyTransformations folder contains faulty transformations for 4 transformation program
 (bibtex2dockbook, class2relational, pnml2petrinet, uml2er).
 
-experiment's result= cd.udem.fixingatlerror/Tmp/varaminz/step5ostende4/examples/class2rel/trafo/semanticfaulty/atl(i)/diversity(j)/solution/(k)
+experiment's result= FixingATLErrorSocialDiversityCrowdingDistance/cd.udem.fixingatlerror/Tmp/varaminz/step5ostende4/examples/class2rel/trafo/semanticfaulty/atl(i)/diversity(j)/solution/(k)
 	i= from 1 until size of faulty transformations
 	j= 1 until 5
 	k= 1 until 5
 
 
-config = cd.udem.fixingatlerror/examples/config.text
+config = FixingATLErrorSocialDiversityCrowdingDistance/cd.udem.fixingatlerror/examples/config.text
   config contains:
 	tmp/varaminz/step5ostende4
 	tmp/outputfolder
@@ -43,17 +42,6 @@ config = cd.udem.fixingatlerror/examples/config.text
 	tmp/varaminz/step5ostende4/examples/Sourcemodel_input1
 
 
-
-To change setting to run the code for another transformation program:
-	1. In setting.java line 23-46, 4 parameters for every transformation programs is initialized
-	(firstecorename,secondecorename,sourcemetamodel,targetmetamodel), if we put comment for 3 transformations
-	and uncomment the one we plan to run.
-	2. delete config file which is located in cd.udem.fixingatlerror/examples/config.text and copy 
-	 related config file for the transformation program which is located in CorrectOutputModel folder
-	3. delete all files in semantic faulty folder which is located in cd.udem.fixingatlerror/examples/class2rel/trafo/semanticfaulty
-	  and select faulty transformation files from related transformations from SemanticFaultyTransformations folder.
-	4. delete 4 files (correctoutput0.xmi, correctoutput1.xmi, correctoutput2.xmi, correctoutput3.xmi) which
-	  are located in examples and select related 4 correctoutput.xmi files from CorrectOutputModels folder.
 
 
 
